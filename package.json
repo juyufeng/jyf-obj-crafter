@@ -1,0 +1,41 @@
+{
+  "version": "1.1.1",
+  "name": "jyf-obj-crafter",
+  "description": "JyfObjCrafter is a versatile helper utility that is rooted in object-based functionality.",
+  "url": "https://github.com/juyufeng/jyf-obj-crafter",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juyufeng/jyf-obj-crafter.git"
+  },
+  "keywords": [
+    "obj",
+    "merge"
+  ],
+  "author": "juyufeng <18321212571@163.com>",
+  "bugs": {
+    "url": "https://github.com/juyufeng/jyf-obj-crafter/issues"
+  },
+  "module": "es6/JyfObjCrafter.js",
+  "main": "ejs/JyfObjCrafter.js",
+  "browser": "ejs/JyfObjCrafter.js",
+  "exports": {
+    ".": {
+      "import": "./es6/JyfObjCrafter.js",
+      "require": "./ejs/JyfObjCrafter.js"
+    }
+  },
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/helpers": "^7.25.9",
+    "@babel/preset-env": "^7.25.4",
+    "chalk": "2.4.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "runjs": "^4.1.3"
+  }
+}
